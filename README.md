@@ -20,10 +20,10 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 You will need this repository for JSON serializer hello world benchmark.
 
-You can retrieve data to serialize with `PhpBenchmarks\JsonSerializerHelloWorld\JsonSerializerHelloWorld::getDataToSerialize()`.
+You can retrieve data to serialize with `PhpBenchmarks\BenchmarkJsonSerializerHelloWorld\JsonSerializerHelloWorld::getDataToSerialize()`.
 
 As serialization don't need to write anything to response body,
 when we validate your serialization we add a parameter into query string
 to indicate you need to write serialization result into response body.
 
-Use `PhpBenchmarks\JsonSerializerHelloWorld\JsonSerializerHelloWorld::isWriteToResponseBody()` to know if you have to do it or not.
+Use `PhpBenchmarks\JsonSerializerHelloWorld\BenchmarkJsonSerializerHelloWorld::isWriteToResponseBody()` to know if you have to do it or not.

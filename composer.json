@@ -5,7 +5,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarks\\JsonSerializerHelloWorld\\": "src/"
+            "PhpBenchmarks\\BenchmarkJsonSerializerHelloWorld\\": "src/"
         }
     },
     "require": {

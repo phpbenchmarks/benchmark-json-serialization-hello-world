@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarks\JsonSerializerHelloWorld;
+namespace PhpBenchmarks\BenchmarkJsonSerializerHelloWorld;
 
 class JsonSerializerHelloWorld
 {
