@@ -1,11 +1,11 @@
 {
-    "name": "phpbenchmarks/benchmark-json-serializer-hello-world",
-    "description": "Data for JSON serializer hello world benchmark on phpbenchmarks.com",
+    "name": "phpbenchmarks/benchmark-json-serialization-hello-world",
+    "description": "Data for JSON serialization of Hello world benchmark on phpbenchmarks.com.",
     "license": "proprietary",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarks\\BenchmarkJsonSerializerHelloWorld\\": "src/"
+            "PhpBenchmarks\\BenchmarkJsonSerializationHelloWorld\\": "src/"
         }
     },
     "require": {
